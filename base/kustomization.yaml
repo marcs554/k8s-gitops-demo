@@ -4,7 +4,8 @@ kind: Kustomization
 resources:
   - deployment.yaml
   - service.yaml
- 
+  - configmap.yaml
+
 commonLabels:
   app: webapp
   managed-by: argocd
